@@ -121,7 +121,7 @@ const Poster = () => {
                 name="model"
                 value={formData.model}
                 onChange={handleInputChange}
-                placeholder="Model"
+                placeholder="Milage/Engine Model"
                 className="border p-2 rounded"
               />
               <input
@@ -200,7 +200,7 @@ const Poster = () => {
                   Make: <span className="font-normal">{car.make}</span>
                 </h2>
                 <p className="mt-2 font-bold">
-                  Model: <span className="font-normal">{car.model}</span> |
+                  Milage/Engine Model: <span className="font-normal">{car.model}</span> |
                   Year: <span className="font-normal">{car.year}</span>
                 </p>
                 <img
