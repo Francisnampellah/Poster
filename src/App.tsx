@@ -163,17 +163,19 @@ const Poster = () => {
           className="max-w-screen-lg mx-auto p-4 rounded shadow-md bg-gray-50"
         >
           {/* Header */}
-          <div className="flex items-center justify-center mb-8 bg-black p-4 rounded-xl text-white flex-row-reverse">
+          <div className="flex items-center justify-between mb-8 bg-black p-4 rounded-xl text-white flex-row-reverse">
             <img
               src={Logo}
               alt="SMSCARZ Logo"
               className="w-32 self-start object-cover"
             />
-            <div className="w-full">
+            <div className="w-fit ">
+            <span className="text-5xl font-black">Ostrich Tanzania</span>
+            </div>
+            <div className="">
               <div className="text-start mt-4">
                 <p className="font-bold">Contact Us:</p>
-                <p>+ 255 xxx xxx xxx</p>
-                <p>+ 255 xxx xxx xxx</p>
+                <p>+255 777 585 750</p>
                 {/* <p className="font-extrabold underline">www.smscarz.co.tz</p> */}
               </div>
             </div>
